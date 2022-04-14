@@ -8,4 +8,6 @@ Uncaught Error: Module build failed (from ./node_modules/sass-loader/lib/loader.
 Error: Node Sass version 7.0.1 is incompatible with ^4.0.0.
 
 node-sassのバージョンを動画のバージョンではなく
-4.0.0でいいみたい
+4.0.0にしようとしたが、エラー
+
+npmのサイトでnode-sassを確認　→　nodejsのバージョンが16の時は6.0だった
