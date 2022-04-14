@@ -11,3 +11,8 @@ node-sassのバージョンを動画のバージョンではなく
 4.0.0にしようとしたが、エラー
 
 npmのサイトでnode-sassを確認　→　nodejsのバージョンが16の時は6.0だった
+→　npm run start　→　またエラー
+Error: Node Sass version 6.0.0 is incompatible with ^4.0.0.
+
+どうやら4.0.0出ないとダメ見たい
+ということはnode.jsのバージョンを14くらいに下げればよさそう
