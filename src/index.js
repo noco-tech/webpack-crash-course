@@ -7,6 +7,7 @@ import _ from 'lodash';
 import style from './style.css';
 // import './style.css'
  //styleはこれでもOk省略できる　あれ？できない？やっぱstyleいる
+import logo from './logo.png';
 console.log(style);
 
 // console.log(Tiger.say());
@@ -23,3 +24,7 @@ function component() {
 
 document.body.appendChild(component());
 document.body.classList.add('haikei');
+
+const image = new Image()
+image.src = logo
+document.body.appendChild(image);
