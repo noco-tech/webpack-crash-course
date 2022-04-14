@@ -4,11 +4,12 @@ import _ from 'lodash';
 // import * as utilities from './utilities'
 // import Tiger from './utilities'
 
-import style from './style.css';
+import './style.css';
 // import './style.css'
  //styleはこれでもOk省略できる　あれ？できない？やっぱstyleいる
+import './style.scss';
 import logo from './logo.png';
-console.log(style);
+// console.log(style);
 
 // console.log(Tiger.say());
 // console.log(NAME_OF_HUM)
