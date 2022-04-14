@@ -1,5 +1,5 @@
 # webpack-crash-course
-セクション4-12 sass-loader　
+セクション4-12 sass-loader　ブランチはsass-loader
 node-sassのバージョンが動画通りだとエラーになってしまい、
 最新版@7.0...をインストールして
 sassファイルを編集　→　index.jsを編集　import './style.scss'
