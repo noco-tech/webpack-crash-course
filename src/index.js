@@ -4,6 +4,7 @@ import './style.css'
 import './style.scss'
 
 console.log('I am printing logs');
+alart("hi!,source-map")
 
 ReactDOM.render(
   <div>Hello,React!</div>, document.getElementById('root')
